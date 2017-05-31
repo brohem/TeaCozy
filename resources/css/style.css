@@ -1,0 +1,176 @@
+/* GLOBAL */
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  /*text-align: center;*/
+}
+/*END GLOBAL */
+
+/*----------------*/
+
+/* NAVBAR */
+.navbar{
+  display: flex;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+.logo{
+  padding-left: 10px;
+}
+
+.logo img{
+  height: 50px;
+}
+
+.logo img:hover{
+  background-color: red;
+}
+
+nav{
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav span{
+  padding: 0px 20px;
+}
+
+nav a{
+  color: seashell;
+}
+
+nav a:hover{
+  color: red;
+}
+/*END NAVBAR */
+
+/*----------------*/
+
+/* MISSION */
+.mission{
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
+  background-image: url("../img/img-mission-background.jpg");
+}
+
+.text{
+  margin: 0px auto;
+  background-color: black;
+  width: 1200px;
+
+}
+
+.text h2, h4{
+  margin: 10px 0;
+  padding-bottom: 10px;
+}
+/* END MISSION */
+
+/*----------------*/
+
+/* PRODUCTS */
+.products{
+  width: 1000px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 70px;
+
+}
+
+.products .text{
+  width: auto;
+}
+
+.products img{
+  height: 200px;
+  width: 300px;
+
+}
+
+.tea-type{
+  display: inline-block;
+}
+
+.products h4{
+  padding-top: 10px;
+}
+
+.row1{
+display: flex;
+justify-content: space-between;
+}
+
+.row2{
+margin-top: 15px;
+}
+
+.row2 .tea-type{
+  margin: 0px 25px;
+}
+/*END PRODUCTS */
+
+/*----------------*/
+
+/* LOCATIONS */
+.locations{
+background-image: url("../img/img-locations-background.jpg");
+height: 500px;
+width: 1200px;
+display: flex;
+flex-direction: column;
+text-align: center;
+margin: 0px auto;
+justify-content: center;
+
+}
+
+.locations h2{
+  margin: 0px auto;
+}
+
+.loc{
+  background-color: black;
+  width: 300px;
+  display: inline-block;
+  margin: 0px 20px;
+  opacity: 1;
+}
+
+.loc p{
+  margin: 40px 0;
+}
+
+.row{
+  margin-top: 15px;
+}
+/*END LOCATIONS */
+
+/*----------------*/
+
+/* FOOTER */
+footer .top{
+height: 200px;
+text-align: center;
+}
+
+.bottom{
+  margin-left: 20px;
+  text-align: left;
+}
+/*END FOOTER */
